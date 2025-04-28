@@ -1,6 +1,6 @@
 package com.designpatterns.behavioral.command.invoker;
 
-import com.designpatterns.behavioral.command.command.ICommand;
+import com.designpatterns.behavioral.command.cmd.ICommand;
 
 public class RemoteControl {
 

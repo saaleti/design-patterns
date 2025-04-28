@@ -1,17 +1,17 @@
-package com.designpatterns.behavioral.command.command;
+package com.designpatterns.behavioral.command.cmd;
 
 import com.designpatterns.behavioral.command.receiver.AirConditioner;
 
-public class TurnOnAcCommand implements ICommand{
+public class TurnOffAcCommand implements ICommand{
 
     private AirConditioner airConditioner;
 
-    public TurnOnAcCommand(AirConditioner airConditioner){
+    public TurnOffAcCommand(AirConditioner airConditioner){
         this.airConditioner = airConditioner;
     }
 
     @Override
     public void execute() {
-        airConditioner.turnOnAc();
+        airConditioner.turnOffAc();
     }
 }

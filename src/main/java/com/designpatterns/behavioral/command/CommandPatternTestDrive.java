@@ -1,9 +1,9 @@
 package com.designpatterns.behavioral.command;
 
-import com.designpatterns.behavioral.command.command.ICommand;
-import com.designpatterns.behavioral.command.command.SetTemperatureCommand;
-import com.designpatterns.behavioral.command.command.TurnOffAcCommand;
-import com.designpatterns.behavioral.command.command.TurnOnAcCommand;
+import com.designpatterns.behavioral.command.cmd.ICommand;
+import com.designpatterns.behavioral.command.cmd.SetTemperatureCommand;
+import com.designpatterns.behavioral.command.cmd.TurnOffAcCommand;
+import com.designpatterns.behavioral.command.cmd.TurnOnAcCommand;
 import com.designpatterns.behavioral.command.invoker.RemoteControl;
 import com.designpatterns.behavioral.command.receiver.AirConditioner;
 

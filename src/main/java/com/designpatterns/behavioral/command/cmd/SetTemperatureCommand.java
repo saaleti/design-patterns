@@ -1,4 +1,4 @@
-package com.designpatterns.behavioral.command.command;
+package com.designpatterns.behavioral.command.cmd;
 
 import com.designpatterns.behavioral.command.receiver.AirConditioner;
 
