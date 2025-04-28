@@ -1,0 +1,59 @@
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+
+# Ignore build directories
+/out/
+build/
+target/
+
+# Ignore Maven and Gradle folders
+.mvn/
+!**/src/main/**/.mvn/*
+.gradle/
+.gradle-cache/
+build/
+
+# Ignore temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled classes
+*.class
+
+# Ignore package distribution directories
+dist/
+tmp/
+
+# Ignore virtual environments (for Python mixed projects)
+venv/
+.env/
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore node modules (if using Node.js in the project)
+node_modules/
+
+# Ignore JetBrains specific caches
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+.idea/shelf/
+
+# Ignore user-specific run configurations
+.idea/**/runConfigurations/
+
+# Optional: ignore generated docs
+docs/
+
+# Optional: ignore IntelliJ logs
+.idea/log/
