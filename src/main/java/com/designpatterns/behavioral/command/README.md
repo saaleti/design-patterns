@@ -2,7 +2,7 @@
 
 ## 📌 What is the Command Pattern?
 
-The **Command Pattern** is a behavioral design pattern that turns a **request** into a **standalone object** (Remember?, In portal, we have converted HTTP requests in to Command Objects and queued then in KAFKA).  
+The **Command Pattern** is a behavioral design pattern that turns a **request** into a **standalone object** (Remember?, In portal, we have converted HTTP requests in to Command Objects and queued them in KAFKA).  
 This object contains all the information about the request, allowing you to **parameterize methods**, **queue or log requests**, and **support undoable operations**.
 
 Instead of sending a direct request, the Command Pattern **encapsulates the action** inside a command object.
